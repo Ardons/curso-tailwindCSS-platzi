@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TailwindCSS</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="./output.css" rel="stylesheet">
+    
 </head>
 <body>
     
@@ -24,6 +25,21 @@
             </ul>
         </nav>
     </header>
+
+    <section class="bg-gray-100 py-12 px-4 md:px-8 lg:px-16">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-8">
+          <div class="md:w-1/2">
+            <h2 class="text-3xl font-bold mb-4">INGENIERA AMBIENTAL</h2>
+            <p class="text-gray-600 mb-6">Esta landing page estara enfocada en la ingenieria ambiental</p>
+            <button class="bg-pink-500 hover:bg-pink-600 text-white px-6 py-3 rounded-lg transition">
+              Acción principal
+            </button>
+          </div>
+          <div class="md:w-1/2">
+            <img src=".\assets\imagen_ambiental.jpg" alt="Imagen representativa" class="rounded-lg shadow-lg">
+          </div>
+        </div>
+      </section>
 
 
 </body>
